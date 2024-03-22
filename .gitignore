@@ -3,3 +3,5 @@ External Libraries
 .vscode
 .venv
 venv
+flask-api.png
+.flaskenv
