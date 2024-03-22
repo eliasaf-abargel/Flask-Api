@@ -1,4 +1,3 @@
-
 from flask import Blueprint, jsonify, request, abort
 from task_models.task import Task
 
@@ -7,14 +6,17 @@ JSON_FILE = 'tasks.json'
 
 tasks = Task.read_tasks_from_json(JSON_FILE)
 
+
 @task_blueprint.route('/', methods=['GET'])
 def get_all_tasks():
     return jsonify([task.to_json() for task in tasks])
+
 
 @task_blueprint.route('/<int:task_id>', methods=['GET'])
 def get_task(task_id):
     task = next((task for task in tasks if task.id == task_id), None)
     return jsonify(task.to_json()) if task else abort(404)
+
 
 @task_blueprint.route('/<int:task_id>', methods=['PUT'])
 def update_task(task_id):

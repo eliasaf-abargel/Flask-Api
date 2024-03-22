@@ -1,4 +1,5 @@
 .idea
 External Libraries
 .vscode
-myenv
+.venv
+venv
