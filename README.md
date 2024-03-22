@@ -1,4 +1,4 @@
-# Flask-API Project ![Flask-API Icon]()
+# Flask-API Project ![Flask-API Icon]
 
 <p align="center">
   <img src="image.png" width="64" height="64" alt="Flask-API Icon">
