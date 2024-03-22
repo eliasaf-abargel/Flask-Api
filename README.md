@@ -1,4 +1,9 @@
-# Flask-API Project ![Flask-API Icon](image.png)
+# Flask-API Project ![Flask-API Icon]()
+
+<p align="center">
+  <img src="image.png" width="64" height="64" alt="Flask-API Icon">
+</p>
+
 
 Flask-API is a RESTful API framework built with Flask, designed to streamline the process of managing tasks. With a focus on simplicity and efficiency, this project offers endpoints for creating, reading, updating, and deleting tasks, backed by data persistence in a JSON file.
 
