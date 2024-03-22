@@ -1,5 +1,5 @@
 # Flask-Api
-
+![Flask-Api Project](https://i.imgur.com/GxpEciA.png)
 
 Flask-Api is a RESTful API built with Flask that allows you to manage tasks. It provides endpoints for creating, reading, updating, and deleting tasks, with data persisted in a JSON file.
 
@@ -19,9 +19,9 @@ Flask-Api is a RESTful API built with Flask that allows you to manage tasks. It 
 
 ## Installation
 
-1. Clone the repository: ״git clone https://github.com/your-username/Flask-Api.git״
+1. Clone the repository: ״[git clone https://github.com/your-username/Flask-Api.git](https://github.com/eliasaf-abargel/Flask-Api.git)״
 2. Navigate to the project directory: ״cd Flask-Api״
-3.  Create a virtual environment: ״python -m venv venv״
+3. Create a virtual environment: ״python -m venv venv״
 4. Activate the virtual environment:
 - For Windows:
   ```
