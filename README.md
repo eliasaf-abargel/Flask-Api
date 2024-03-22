@@ -1,6 +1,5 @@
 # Flask-Api
 
-# Flask-Api
 
 Flask-Api is a RESTful API built with Flask that allows you to manage tasks. It provides endpoints for creating, reading, updating, and deleting tasks, with data persisted in a JSON file.
 
